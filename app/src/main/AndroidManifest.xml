@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".EditTextActivity" android:windowSoftInputMode="adjustPan|adjustResize"/>
+        <activity android:name=".BinnerActivity"/>
     </application>
 
 </manifest>

@@ -18,6 +18,7 @@ public class MainActivity extends BaseActivity {
     private Button query;
     private Button btnEditText;
     private View headerview;
+    private Button btnBinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,9 @@ public class MainActivity extends BaseActivity {
         query = (Button) findViewById(R.id.query);
         btnEditText = (Button) findViewById(R.id.btn_edittext);
         headerview = findViewById(R.id.main_tittle);
+        btnBinner = (Button) findViewById(R.id.btn_binner);
+
+
 
         initHeadView();
 
@@ -128,6 +132,15 @@ public class MainActivity extends BaseActivity {
             }
         });
 
+
+        btnBinner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BinnerActivity.startActivity(MainActivity.this);
+            }
+        });
+
+
     }
 
 
@@ -140,6 +153,9 @@ public class MainActivity extends BaseActivity {
             }
         });
     }
+
+
+
 
 
 }

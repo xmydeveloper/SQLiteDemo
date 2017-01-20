@@ -39,6 +39,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\test\SQLiteDemo\app\build\intermediates\exploded-aar\com.bigkoo\convenientbanner\2.0.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b99798f653c15a17af6779bb9f01a66f2ee6e6ef">
+        <dex dex="D:\test\SQLiteDemo\app\build\intermediates\pre-dexed\debug\com.bigkoo-convenientbanner-2.0.5_0403d00c14e21407d18fa6f05f05b9c0260c00cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\test\SQLiteDemo\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"

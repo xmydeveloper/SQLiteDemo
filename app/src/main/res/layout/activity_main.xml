@@ -42,4 +42,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="EDITTEXT的边框" />
+    <Button
+        android:id="@+id/btn_binner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开binner界面" />
 </LinearLayout>
